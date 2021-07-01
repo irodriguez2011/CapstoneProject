@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  
+}
+
+.container {
+   background-color: rgba(104, 73, 104, 0.575);
+   height: 100vh;
+}
+
+.home-page-section {
+  background: url('/src/8a122bc8012d08921fb02b4cf3a0fbfe.jpg');
+  min-height: 100%;
+}
+
+
+
+
+.primary-color {
+  color: #79589f;
+
+ 
+}
+
+p {
+  color: #333;
+}
+
+
+/* navbar */
+
+nav {
+  color:#dfdfdf;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  min-width: 100%;
+  height:65px;
+  
+  
+}
+
+.nav-title {
+  font-family: 'Shadows Into Light Two', cursive;
+  padding-bottom: 15px;
+  text-shadow: -2px 10px 5px 4px rgb(184, 57, 57);
+} 
+
+.nav-title-span {
+ 
+  padding-left: 40px;
+  height: 40px;
+}
+
+
+
+.navbar a {
+  color: black;
+}
+.navbar a:hover {
+  text-decoration: none;
+  color: #79589f;
+  min-height: 1.5em;
+}
+
+
+ul {
+  position: relative;
+  top: 10px;
+  width: 275px;
+  list-style: none;
+  display:flex;
+  justify-content: space-around;
+  
+}
+
+ul li{
+  font-size: 15pt;
+  color:#f8f6f6;
+}
+
+ul a:hover {
+  font-style:italic;
+}
+
+/* notes list */
+
+.noteList {
+
+ background: #6a5675;
+ height: 90vh;
+ display:flex;
+  flex-direction: row;
+
+}
+
+
+/*
+.note-details-div{
+    background: black;
+    display:flex;
+    justify-content: space-between;
+} */
+
+.main-content {
+  align-self: center;
+  max-width: 600px;
+  max-height: 500px;
+  margin: 0px auto;
+  padding: 20px;
+  background-color:#E9E0D7 ;
+  box-shadow: 2px 4px 4px 4px solid black;
+  border-top-right-radius: 2%;
+  border-bottom-right-radius: 2%;
+  border-top-left-radius: 5%;
+  border: 2px outset #757575;
+  overflow-y: scroll;
+}
+
+.listOfNotes{
+  color:white;
+  font-family: 'Benne', serif;
+}
+
+.notes-preview a{
+  background: #f4f4f4;
+  display: block;
+  padding: 1rem;
+}
+.notes-preview a:hover {
+  background: #e4e4e4;
+  text-decoration: none;
+}
+
+/* note details */
+.note-details .metadata {
+  font-size: 14px;
+  
+}
+
+.note-details{
+  background: #E9E0D7;
+}
+
+.note-details-title{
+  border-bottom: 3px double #6e8686;
+  width: 400px;
+  
+}
+
+.deleteBtn{
+  
+}
+
+button {
+  background: #79589f;
+  color: white;
+  border: 0;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #6e8686;
+}
+
+/* create note form */
+.create {
+  min-width: 500px;
+  margin:  auto;
+ padding: 20px;
+ background-color: #F2ECEB;
+}
+.skewed {
+ 
+  height: 150px;
+ 
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffffff80; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(112, 112, 112, 0.5); 
+  border: 1px solid #ffffff80;
+}
